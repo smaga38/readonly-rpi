@@ -112,10 +112,9 @@ mkdir /mnt/newroot/rw
 # Remove root mount from fstab (this is already a non-permanent modification)
 grep -v "$rootPARTUUID" /mnt/lower/etc/fstab > /mnt/newroot/etc/fstab
 {
- echo
- "#the original root mount has been removed by overlayRoot.sh"
- "#this is only a temporary modification, the original fstab"
- "#stored on the disk can be found in /ro/etc/fstab"
+ echo "#the original root mount has been removed by overlayRoot.sh"
+ echo "#this is only a temporary modification, the original fstab"
+ echo "#stored on the disk can be found in /ro/etc/fstab"
 } >> /mnt/newroot/etc/fstab
 
 
