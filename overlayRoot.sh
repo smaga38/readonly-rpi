@@ -1,6 +1,6 @@
 #!/bin/sh
 #  Read-only Root-FS for Raspian using overlayfs
-#  Version 1.0
+#  Version 1.0.1
 #
 #  Created 2017 by Pascal Suter @ DALCO AG, Switzerland
 #  to work on Raspian as custom init script
